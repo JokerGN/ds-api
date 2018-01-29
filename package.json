@@ -1,17 +1,17 @@
 {
-  "name": "koa-api-boilerplate",
+  "name": "ds-api",
   "version": "1.0.0",
-  "description": "koa-api-boilerplate to custom your own api",
+  "description": "ds-api for pick time to present assingment",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name='koa-api-boilerplate' --interpreter babel-node",
-    "stop": "pm2 stop koa-api-boilerplate",
-    "logs": "pm2 logs koa-api-boilerplate",
+    "start": "pm2 start index.js --name='ds-api' --interpreter babel-node",
+    "stop": "pm2 stop ds-api",
+    "logs": "pm2 logs ds-api",
     "dev": "nodemon index.js --exec babel-node"
   },
-  "keywords": ["koa", "koa-boilerplate"],
+  "keywords": ["koa"],
   "author": "Thanachote Khaosanit <chote1234@hotmail.co.th>",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "@koa/cors": "^2.2.1",
     "babel-cli": "^6.26.0",
